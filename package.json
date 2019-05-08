@@ -1,0 +1,47 @@
+{
+  "name": "appiness-task",
+  "version": "1.0.0",
+  "description": "user management",
+  "main": "www.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node ./src/www.ts",
+    "start": "nodemon ./dist/www.js",
+    "prod": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santoshkanuri/Appiness-task.git"
+  },
+  "keywords": [
+    "usermanagement",
+    "ts-node"
+  ],
+  "author": "SantoshK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santoshkanuri/Appiness-task/issues"
+  },
+  "homepage": "https://github.com/santoshkanuri/Appiness-task#readme",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/express-session": "^1.15.12",
+    "@types/node": "^12.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "express-ws-routes": "^1.1.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.5.6",
+    "mongoose-paginate": "^5.0.3",
+    "rbac": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0",
+    "prettier-tslint": "^0.4.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
