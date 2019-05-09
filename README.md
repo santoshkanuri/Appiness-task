@@ -4,8 +4,11 @@ node-react user management
 ## instructions
 
 npm i -g typescript 
+
 npm install 
+
 npm run build
+
 npm satrt
 
 ## method           url                     permission-level
