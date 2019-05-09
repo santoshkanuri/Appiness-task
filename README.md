@@ -10,4 +10,4 @@ node-react user management
     delete      /api/user/:id                   admin 
     get         /api/roles                   authenicated users
     post        /api/role                        admin
-    post        /api/assign-role        =        admin
+    post        /api/assign-role                admin
