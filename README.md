@@ -1,7 +1,13 @@
 # Appiness-task
 node-react user management
 
-## user
+## instructions
+
+npm i -g typescript 
+npm install 
+npm run build
+npm satrt
+
 ## method           url                     permission-level
     post        /api/login                           -
     get         /api/users                  authenticated users
